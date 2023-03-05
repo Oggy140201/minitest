@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let myArray =[0,1,5,10,14,19,20,27,30,39,45];
+  let tong = 0;
+  for (let i = 0;i<myArray.length;i++){
+      if (myArray[i] % 5 == 0){
+          document.write(myArray[i] + "</br>");
+          tong += myArray[i];
+      }
+  } document.write(tong);
+</script>
+</body>
+</html>
